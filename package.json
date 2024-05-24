@@ -1,0 +1,38 @@
+{
+  "name": "@yasudoro/objecter",
+  "version": "1.0.0",
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
+  },
+  "keywords": [
+    "objects",
+    "object",
+    "fields"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svkhrobbeck/objecter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/svkhrobbeck/objecter/issues"
+  },
+  "homepage": "https://github.com/svkhrobbeck/objecter#readme",
+  "author": "Suhrobbek Soatov",
+  "license": "MIT",
+  "description": "object helpers for my own projects",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@types/node": "^20.12.12",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.7",
+    "typescript": "^5.4.5"
+  }
+}
